@@ -6,7 +6,7 @@ public class TanishqCar extends Car{
 
     @Override
     public String getBrake() {
-        return "disc brake";
+        return "Tanishq car brake";
     }
 
     public String getWiper() {
@@ -16,4 +16,5 @@ public class TanishqCar extends Car{
     public void setWiper(String wiper) {
         this.wiper = wiper;
     }
+
 }

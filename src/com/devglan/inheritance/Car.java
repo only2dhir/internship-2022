@@ -3,7 +3,7 @@ package com.devglan.inheritance;
 public class Car {
 
     private String[] tyres = {"14", "15", "14", "15"};
-    private String brake = "drum brake";
+    private String brake = "Car class drum brake";
     private String steering = "manual steering";
 
     public String[] getTyres() {
