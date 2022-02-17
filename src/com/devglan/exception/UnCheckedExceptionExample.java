@@ -10,9 +10,10 @@ public class UnCheckedExceptionExample {
             System.out.println(fruits[i]);
             System.out.println(i +1);
             //throw new RuntimeException("run time exception");
+            throw new NotFoundException(400, "Not found");
             //HTTP API call
             //DB call
-            System.out.println("printed" + i + " element");
+            //System.out.println("printed" + i + " element");
 
         }
 
